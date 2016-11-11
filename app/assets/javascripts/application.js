@@ -10,15 +10,10 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+
+//= require uaming
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require uaming
 
-(function() {
-
-  console.log("Loading Uaming Library")
-  UamingWidget.init("http://localhost:3000");
-
-})();
