@@ -1,24 +1,17 @@
-# README
+# UAMing Site
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Site developed with rails 5 to test the UAMing javascript module.
+To execute this application you have to:
 
-Things you may want to cover:
+* clone the source code;
+* install ruby 2.3.0 and rails 5;
+* install postgresql-9.3;
+* postgresql => create user with password based on database.yml;
+* run the dependencies with bundle
+* edit the uaming.js on line 121 to the correct API SERVER ADDRESS;
+* execute the server on different port if the UAMing Application is running: rails s -p 3001
 
-* Ruby version
+Demo on heroku:
 
-* System dependencies
+http://uaming-site.herokuapp.com/
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
