@@ -14,10 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require_tree .
+//= require uaming
 
 (function() {
-	
+
   console.log("Loading Uaming Library")
   UamingWidget.init("http://localhost:3000");
 
