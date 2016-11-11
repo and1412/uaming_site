@@ -17,7 +17,8 @@
 //= require_tree .
 
 (function() {
-
+	
+  console.log("Loading Uaming Library")
   UamingWidget.init("http://localhost:3000");
 
 })();
