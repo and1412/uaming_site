@@ -116,7 +116,7 @@ var UamingWidget = {
 
 (function() {
 
-  console.log("Loading Uaming Library")
+  console.log("Loading Uaming Library...")
   UamingWidget.init("http://uaming-application.herokuapp.com");
 
 })();
