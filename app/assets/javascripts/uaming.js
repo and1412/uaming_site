@@ -74,9 +74,8 @@ var UamingWidget = {
 		var parameters = {
 		    "user": this.getCookie("userId"),
 		    "resource": this.oldURL.substr(1),
-		    "event_date": [(d.getMonth()+1).padLeft(),
-               d.getDate().padLeft(),
-               d.getFullYear()].join('-') +'T' +
+		    "event_date": [d.getFullYear(), (d.getMonth()+1).padLeft(),
+               d.getDate().padLeft()].join('-') +'T' +
               [d.getHours().padLeft(),
                d.getMinutes().padLeft(),
                d.getSeconds().padLeft()].join(':')
